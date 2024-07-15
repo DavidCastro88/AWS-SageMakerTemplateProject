@@ -1,0 +1,6 @@
+This folder contain: 
+    train_data.csv
+    validation_data.csv
+    test_data.csv
+
+Datasets, that we go upload to S3 and then to use to train, validate, and test our model.
