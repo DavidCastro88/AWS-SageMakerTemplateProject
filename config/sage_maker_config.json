@@ -1,0 +1,24 @@
+{
+    "training": {
+      "role": "arn:aws:iam::123456789012:role/service-role/AmazonSageMaker-ExecutionRole-20240101T000001",
+      "instance_type": "ml.m4.xlarge",
+      "instance_count": 1,
+      "max_run": 3600,
+      "output_path": "s3://your-bucket/models/",
+      "hyperparameters": {
+        "max_depth": 5,
+        "num_round": 100
+      }
+    },
+    "model": {
+      "name": "my-xgboost-model",
+      "image_uri": "811284229777.dkr.ecr.us-east-1.amazonaws.com/xgboost:latest",
+      "model_data": "s3://your-bucket/models/my-xgboost-model/model.tar.gz",
+      "execution_role": "arn:aws:iam::123456789012:role/service-role/AmazonSageMaker-ExecutionRole-20240101T000001"
+    },
+    "endpoint": {
+      "name": "my-xgboost-endpoint",
+      "instance_type": "ml.m4.xlarge",
+      "initial_instance_count": 1
+    }
+  }

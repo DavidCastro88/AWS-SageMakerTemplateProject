@@ -1,1 +1,8 @@
-In the case, that we need process our datasets of train, validate, and test, here we are going to put it.
+In the case, that we need process our datasets of train, validate, 
+and test, here we are going to put it.
+
+ Example files:
+    data.csv
+    train.csv
+    validation.csv
+    test.csv
