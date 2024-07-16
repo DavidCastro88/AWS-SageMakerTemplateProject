@@ -45,10 +45,11 @@ AWS-SageMakerTemplateProject/
 
 1. Clone the repository:
 
-    `https://github.com/DavidCastro88/AWS-SageMakerTemplateProject.git
-    cd AWS-SageMakerTemplateProject`
+    `https://github.com/DavidCastro88/AWS-SageMakerTemplateProject.git`
+   
+    `cd AWS-SageMakerTemplateProject`
 
-2. Install dependencies:
+3. Install dependencies:
    
      `pip install -r requirements.txt`
 
